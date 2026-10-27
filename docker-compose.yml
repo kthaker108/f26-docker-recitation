@@ -1,1 +1,6 @@
-
+services:
+  web:
+    build: .
+    container_name: mycontainer
+    ports:
+      - "80:80"
